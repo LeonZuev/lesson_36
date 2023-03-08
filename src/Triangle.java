@@ -1,4 +1,4 @@
-public class Triangle {
+/*public class Triangle {
   /*
   Создайте класс Triangle (треугольник), принимающий три целых значения - длины трёх сторон.
   В конструкторе нужно проверить введённые значения на корректность (например, длины не могут быть
@@ -8,19 +8,19 @@ public class Triangle {
   Этот метод необходимо использовать в конструкторе.
   При провале любой из проверок нужно вывести на экран соответствующее сообщение.
    */
-  int a;
-  int b;
-  int c;
-  public static bool checkSides(int a, int b, int c) {
+ // int a;
+  //int b;
+  //int c;
+  //public static bool checkSides(int a, int b, int c) {
     /*
     AB < AD. Но AD = AC + CD = AC + CB, поэтому AB < AC + CB.
     (AB < AC + BC) && (BC < BA + CA) && (CA < BC + AB)
 
      */
-    if ((a < 0) || (b < 0) || (c < 0)) {
-      System.out.println("длины не могут быть отрицательными");
-      return ;
-    }
+    //if ((a < 0) || (b < 0) || (c < 0)) {
+      //System.out.println("длины не могут быть отрицательными");
+      //return ;
+    //}
 
-  }
-}
+  //}
+//}8

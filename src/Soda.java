@@ -1,21 +1,13 @@
 public class Soda {
-  /*
-  У класса должен быть конструктор, принимающий 1 аргумент при ??инициализации?? -   !!!
-  строку добавка (например, "малина"), отвечающий за добавку к выбираемому лимонаду. +
-  В этом классе реализуйте метод public String GetMyDrinkString(),
-  возвращающий строку Газировка и {добавка} в случае наличия добавки.
-  Если добавки нет, нужно вернуть строку "Обычная газировка".
-   */
-  private String additive;
-  public Soda() {
-    additive = "малина";
+  private String add;
+  public Soda(String add) {
+    this.add = add;
   }
   public String GetMyDrinkString() {
-    if (additive != null ) {
-      System.out.println("Газировка" + additive);
+    if (add != null && !add.isEmpty() ) {
+      return("Газировка и " + add);
     } else {
-      System.out.println("Обычная газировка");
+      return("Обычная газировка");
     }
-    return null;
   }
 }

@@ -7,9 +7,9 @@ public class Main {
   возвращающий строку Газировка и {добавка} в случае наличия добавки.
   Если добавки нет, нужно вернуть строку "Обычная газировка".
   */
-
   public static void main(String[] args) {
-
-    System.out.println();
+    Soda mySoda = new Soda("малина");
+    String drinkString = mySoda.GetMyDrinkString();
+    System.out.println(drinkString);
   }
 }
