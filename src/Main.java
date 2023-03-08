@@ -7,7 +7,7 @@ public class Main {
   возвращающий строку Газировка и {добавка} в случае наличия добавки.
   Если добавки нет, нужно вернуть строку "Обычная газировка".
   */
-  S
+
   public static void main(String[] args) {
 
     System.out.println();
