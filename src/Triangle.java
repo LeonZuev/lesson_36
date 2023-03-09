@@ -14,11 +14,13 @@ public class Triangle {
 
   public static boolean checkSides(int a, int b, int c) {
     /*
-    a+b>c a+c>b b+c>a
+    a+b<c a+c<b b+c<a
      */
     if ((a <= 0) || (b <= 0) || (c <= 0)) {
       System.out.println("длины могут быть только положительными величинами");
       return false;
+    } else if (a + b < c || a + c < b || b + c <  a) {
+
     }
 
   }
