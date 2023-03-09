@@ -1,11 +1,11 @@
 public class Soda {
-  private String add;
-  public Soda(String add) {
-    this.add = add;
+  private String supplement;
+  public Soda(String supplement) {
+    this.supplement = supplement;
   }
   public String GetMyDrinkString() {
-    if (add != null && !add.isEmpty() ) {
-      return("Газировка и " + add);
+    if (supplement != null && !supplement.isEmpty() ) {
+      return("Газировка и " + supplement);
     } else {
       return("Обычная газировка");
     }
